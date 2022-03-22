@@ -7,4 +7,4 @@ export default Pagination;
 
 export { Pagination };
 
-createApp(Test).mount("#app");
+// createApp(Test).mount("#app");

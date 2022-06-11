@@ -1,11 +1,8 @@
 {
-  "name": "vue3pagination",
+  "name": "vue3-tailwind-pagination",
   "version": "0.0.1",
   "description": "Vue pagination component using tailwind ",
-  "author": {
-    "name": "Bayu Aji",
-    "email": "bayuaji676@gmail.com"
-  },
+  "author": "Bayu Aji <bayuaji676@gmail.com>",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -20,5 +17,15 @@
     "postcss": "^8.4.12",
     "tailwindcss": "^3.0.23",
     "vite": "^2.8.4"
-  }
+  },
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bayuaji08/vue3-tailwind-pagination.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bayuaji08/vue3-tailwind-pagination/issues"
+  },
+  "homepage": "https://github.com/bayuaji08/vue3-tailwind-pagination#readme"
 }

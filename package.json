@@ -1,6 +1,6 @@
 {
   "name": "vue3-tailwind-pagination",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vue pagination component using tailwind ",
   "author": "Bayu Aji <bayuaji676@gmail.com>",
   "scripts": {

@@ -1,6 +1,6 @@
 <template>
   <div class="mt-10">
-    <Pagination
+    <VuePagination
       :total="total"
       v-model:value="currentPage"
       :perPage="perPage"
@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Pagination from "./components/VuePagination.vue";
+// import Pagination from "./components/VuePagination.vue";
 export default {
-  components: { Pagination },
+  // components: { Pagination },
   data() {
     return {
       total: 30,

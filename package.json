@@ -1,5 +1,17 @@
 {
   "name": "vue3-tailwind-pagination",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/v-pagination.umd.js",
+  "module": "./dist/v-pagination.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/v-pagination.es.js",
+      "require": "./dist/v-pagination.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
   "version": "0.0.2",
   "description": "Vue pagination component using tailwind ",
   "author": "Bayu Aji <bayuaji676@gmail.com>",
@@ -18,10 +30,6 @@
     "tailwindcss": "^3.0.23",
     "vite": "^2.8.4"
   },
-  "main": ".dist/index.9ed8e23f.js",
-  "files": [
-    "dist/*"
-  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bayuaji08/vue3-tailwind-pagination.git"

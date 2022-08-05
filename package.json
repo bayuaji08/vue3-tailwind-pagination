@@ -12,7 +12,7 @@
     },
     "./dist/style.css": "./dist/style.css"
   },
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Vue pagination component using tailwind ",
   "author": "Bayu Aji <bayuaji676@gmail.com>",
   "scripts": {

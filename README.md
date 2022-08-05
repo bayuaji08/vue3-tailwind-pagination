@@ -54,7 +54,7 @@ export default {
 ```
 
 ## Custom Style
-``sh
+```sh
 {
           wrapper:
             "table border-collapse text-center bg-white dark:bg-dark mx-auto shadow-sm text-xs",
@@ -72,4 +72,4 @@ export default {
             "hover:bg-blue-100 w-full h-full transition duration-100 ease-in-out focus:ring-2 focus:ring-blue-500 focus:outline-none focus:ring-opacity-50",
         };
 
-``
+```

@@ -7,7 +7,7 @@ npm install vue3-tailwind-pagination
 # Getting Started
 
 ## Import component
-#### main.js
+**main.js**
 ```sh
 import { createApp } from "vue";
 import App from "./App.vue";

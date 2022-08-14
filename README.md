@@ -22,7 +22,7 @@ app.mount("#app");
 ```
 
 ## How to use
-`App.Vue`
+**App.Vue**
 ```sh
 <template>
   <div class="mt-10">

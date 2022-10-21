@@ -5,3 +5,5 @@ export default {
     app.component("VuePagination", VuePagination);
   },
 };
+
+export { VuePagination };

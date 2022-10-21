@@ -1,6 +1,6 @@
 # Installation
 
-```sh
+```js
 npm install vue3-tailwind-pagination
 ```
 
@@ -10,7 +10,7 @@ npm install vue3-tailwind-pagination
 
 **main.js**
 
-```sh
+```js
 import { createApp } from "vue";
 import App from "./App.vue";
 import VuePagination from "vue3-tailwind-pagination";
@@ -20,14 +20,13 @@ const app = createApp(App);
 
 app.use(VuePagination);
 app.mount("#app");
-
 ```
 
 ## Import locale component
 
 **main.js**
 
-```sh
+```js
 import { VuePagination } from "vue3-tailwind-pagination";
 
 export default {
@@ -40,7 +39,7 @@ export default {
 
 **App.Vue**
 
-```sh
+```js
 <template>
   <div class="mt-10">
     <VuePagination
@@ -72,7 +71,7 @@ export default {
 
 ## Custom Style
 
-```sh
+```js
 {
           wrapper:
             "table border-collapse text-center bg-white dark:bg-dark mx-auto shadow-sm text-xs",
@@ -91,3 +90,13 @@ export default {
         };
 
 ```
+
+## Props
+
+| Props      | Type     | Default                                                                            |
+| ---------- | -------- | ---------------------------------------------------------------------------------- |
+| `value`    | `Number` | `null`                                                                             |
+| `total`    | `Number` | `null`                                                                             |
+| `perPage`  | `Number` | `10`                                                                               |
+| `limit`    | `Number` | `5`                                                                                |
+| `classess` | `Object` | [Custom Style](https://github.com/bayuaji08/vue3-tailwind-pagination#custom-style) |

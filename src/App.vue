@@ -11,7 +11,7 @@
 </template>
 
 <script>
-// import Pagination from "./components/VuePagination.vue";
+// import Pagination from "./components/VuePagination.vue"
 import { VuePagination } from "vue3-tailwind-pagination";
 
 export default {

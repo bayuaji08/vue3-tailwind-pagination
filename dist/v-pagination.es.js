@@ -158,4 +158,4 @@ var index = {
     app.component("VuePagination", VuePagination);
   }
 };
-export { index as default };
+export { VuePagination, index as default };

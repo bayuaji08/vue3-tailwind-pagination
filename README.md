@@ -6,8 +6,10 @@ npm install vue3-tailwind-pagination
 
 # Getting Started
 
-## Import component
+## Import global component
+
 **main.js**
+
 ```sh
 import { createApp } from "vue";
 import App from "./App.vue";
@@ -21,8 +23,23 @@ app.mount("#app");
 
 ```
 
+## Import locale component
+
+**main.js**
+
+```sh
+import { VuePagination } from "vue3-tailwind-pagination";
+
+export default {
+  components: { VuePagination },
+  ...
+
+```
+
 ## How to use
+
 **App.Vue**
+
 ```sh
 <template>
   <div class="mt-10">
@@ -54,6 +71,7 @@ export default {
 ```
 
 ## Custom Style
+
 ```sh
 {
           wrapper:
